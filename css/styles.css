@@ -8,15 +8,15 @@ body {
   margin: 10px;
 }
 .mail_link,
-.Images_link{
+.Images_link {
   position: absolute;
   bottom: 7px;
 }
-.nav_menu{
+.nav_menu {
   position: absolute;
   right: 0px;
 }
-.menu_card{
+.menu_card {
   display: inline;
 }
 .content {
@@ -63,7 +63,7 @@ body {
 }
 
 .icon {
-  background-image: url(Images/sprites.png);
+  background-image: url(../Images/sprites.png);
   height: 64px;
   width: 64px;
   display: inline-block;
@@ -182,7 +182,7 @@ body {
   height: 20px;
   margin-bottom: 5px;
 }
-.mail_button{
+.mail_button {
   margin-bottom: 5px;
 }
 
