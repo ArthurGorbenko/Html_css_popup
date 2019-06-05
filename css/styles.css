@@ -77,20 +77,21 @@ body {
   top: 60px;
   width: 86px;
 }
-input {
+.checkbox_menu,
+.more {
   position: absolute;
   overflow-y: auto;
   clip: rect(0 0 0 0);
 }
 
-.trig:focus + .button > .menu_btn {
+.checkbox_menu:focus + .button > .menu_btn {
   outline: 2px solid #bac5e9;
 }
 .more:focus ~ .more_label > .more_button {
   outline: 2px solid #bac5e9;
 }
 
-.trig:checked ~ .content {
+.checkbox_menu:checked ~ .content {
   display: flex;
   flex-direction: column-reverse;
 }
