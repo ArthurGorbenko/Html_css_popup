@@ -16,7 +16,7 @@ body {
   position: absolute;
   right: 0px;
 }
-li{
+.menu_card{
   display: inline;
 }
 .content {
@@ -83,7 +83,7 @@ input {
   clip: rect(0 0 0 0);
 }
 
-.trig:focus + .pointsMenu > .button > .menu_btn {
+.trig:focus + .button > .menu_btn {
   outline: 2px solid #bac5e9;
 }
 .more:focus ~ .more_label > .more_button {
