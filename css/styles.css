@@ -3,16 +3,22 @@ body {
   font-size: 15px;
 }
 
-.container {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .mail_button,
 .Images {
   margin: 10px;
 }
-
+.mail_link,
+.Images_link{
+  position: absolute;
+  bottom: 7px;
+}
+.nav_menu{
+  position: absolute;
+  right: 0px;
+}
+li{
+  display: inline;
+}
 .content {
   height: 500px;
   width: 350px;
@@ -22,7 +28,8 @@ body {
   overflow-y: auto;
   display: none;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 20px;
+  left: 20px;
 }
 
 .list_1,
@@ -76,7 +83,7 @@ input {
   clip: rect(0 0 0 0);
 }
 
-.trig:focus + label {
+.trig:focus + .pointsMenu > .button > .menu_btn {
   outline: 2px solid #bac5e9;
 }
 .more:focus ~ .more_label > .more_button {
@@ -102,6 +109,7 @@ input {
 .menu_btn {
   width: 27px;
   height: 27px;
+  margin-top: 5px;
 }
 
 .menu_btn:hover {
@@ -141,12 +149,12 @@ input {
 .ring_img {
   width: 40px;
   height: 40px;
-  margin-bottom: 15px;
 }
 
 .profile_img {
   width: 28px;
   height: 28px;
+  margin-top: 5px;
 }
 
 .ring {
@@ -171,6 +179,9 @@ input {
 .even_more {
   text-align: center;
   height: 20px;
+  margin-bottom: 5px;
+}
+.mail_button{
   margin-bottom: 5px;
 }
 
